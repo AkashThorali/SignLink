@@ -7,7 +7,7 @@ from tensorflow import keras
 
 from utils import extract_landmarks
 
-DATASET_DIR = "data"
+DATASET_DIR = "data/archive/asl_alphabet_train/asl_alphabet_train"
 MODEL_DIR = "model"
 
 X = []

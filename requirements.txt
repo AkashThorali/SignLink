@@ -1,6 +1,7 @@
-mediapipe
-tensorflow
-opencv-python
-numpy
+mediapipe==0.10.14
+tensorflow==2.15.0
+opencv-python==4.8.0.76
+numpy==1.26.4
 scikit-learn
 matplotlib
+protobuf==4.25.3
