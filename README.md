@@ -6,7 +6,7 @@ delete, nothing).
 
 ## Demo
 
-TBD
+![SignLink Demo](assets/demo.gif)
 
 ## Architecture
 - Hand detection: MediaPipe Hands (static_image_mode for training, live feed for inference)
