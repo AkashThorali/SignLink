@@ -13,7 +13,7 @@ LABEL_ENCODER_PATH = "model/label_encoder.npy"
 model = keras.models.load_model(MODEL_PATH)
 classes = np.load(LABEL_ENCODER_PATH, allow_pickle=True)
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while True:
     ret, frame = cap.read()
